@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Lao:wght@400;700&family=Phetsarath+OT&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Phetsarath OT", "Noto Sans Lao", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", "Times New Roman", monospace;
+  --color-primary: #2563eb;
+  --color-primary-container: #1d4ed8;
+  --color-background: #f1f5f9;
+  --color-success-green: #10b981;
+  --color-warning-amber: #f59e0b;
+  --color-info-blue: #3b82f6;
+  --color-border-subtle: #e2e8f0;
+  --color-surface-gray: #f8fafc;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: #1e293b;
+}
